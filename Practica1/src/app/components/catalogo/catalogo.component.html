@@ -1,0 +1,11 @@
+<header>
+  <h1>Catálogo de Productos</h1>
+</header>
+
+<section>
+  @for (p of products(); track p.id) {
+    <app-product-card [producto]="p"></app-product-card>
+  } @empty {
+    <p>Cargando productos...</p>
+  }
+</section>

@@ -1,0 +1,30 @@
+/* Reset ligerito */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Fondo global con gradiente */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top left, #1f2937 0, #020617 35%, #000000 100%);
+  color: #e5e7eb;
+}
+
+/* Para que el router-outlet llene pantalla */
+app-root {
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+router-outlet + * {
+  flex: 1;
+}

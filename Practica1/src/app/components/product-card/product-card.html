@@ -1,0 +1,22 @@
+<article>
+  <img
+    [src]="producto.imagenUrl"
+    [alt]="producto.nombre"
+    class="producto-imagenUrl"
+  />
+
+  <div>
+    <div>
+      <h3>{{ producto.nombre }}</h3>
+      <p>{{ producto.precio }}</p>
+    </div>
+
+    <p>{{ producto.categoria }}</p>
+    <p>{{ producto.descripcion }}</p>
+
+    <p>
+      @if (producto.enStock) { En Stock }
+      @else { Agotado }
+    </p>
+  </div>
+</article>

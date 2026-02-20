@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto>
+    <id>1</id>
+    <nombre>Agua embotellada</nombre>
+    <precio>15</precio>
+    <imagenUrl>https://www.basicos.mx/images/thumbs/0010546_agua-ciel-mineral-2-lts_450.png</imagenUrl>
+    <categoria>Bebidas</categoria>
+    <descripcion>Botella de agua purificada</descripcion>
+    <enStock>true</enStock>
+  </producto>
+
+  <producto>
+    <id>2</id>
+    <nombre>Leche entera</nombre>
+    <precio>22</precio>
+    <imagenUrl>
+      https://res.cloudinary.com/riqra/image/upload/w_656,h_656,c_limit,q_auto,f_auto/v1771010202/merco-monterrey/products/838d74031011afaf.jpg
+    </imagenUrl>
+    <categoria>Lácteos</categoria>
+    <descripcion>Leche entera fresca</descripcion>
+    <enStock>true</enStock>
+  </producto>
+
+  <producto>
+    <id>3</id>
+    <nombre>Papel higiénico</nombre>
+    <precio>30</precio>
+    <imagenUrl>
+      https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_RIJQoOpS6W7xFSjzoXRkh_N5lsFrPHgmg&amp;s
+    </imagenUrl>
+    <categoria>Hogar</categoria>
+    <descripcion>Paquete de papel higiénico</descripcion>
+    <enStock>true</enStock>
+  </producto>
+
+  <producto>
+    <id>4</id>
+    <nombre>Jabón</nombre>
+    <precio>11</precio>
+    <imagenUrl>
+      https://chedrauimx.vtexassets.com/arquivos/ids/63487231-800-auto?v=639066240768930000&amp;width=800&amp;height=auto&amp;aspect=true
+    </imagenUrl>
+    <categoria>Higiene</categoria>
+    <descripcion>Jabón de tocador</descripcion>
+    <enStock>true</enStock>
+  </producto>
+
+  <producto>
+    <id>5</id>
+    <nombre>Sudadera</nombre>
+    <precio>600</precio>
+    <imagenUrl>
+      https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicyqkDdXu6WFfEIN5Yq3DThF2OdXCAbQvFw&amp;s
+    </imagenUrl>
+    <categoria>Ropa</categoria>
+    <descripcion>Sudadera cómoda y abrigadora</descripcion>
+    <enStock>true</enStock>
+  </producto>
+</productos>
